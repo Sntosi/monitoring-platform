@@ -1,0 +1,20 @@
+{
+  "title": "Monitoring Platform Overview",
+  "panels": [
+    {
+      "title": "CPU Usage",
+      "type": "gauge",
+      "targets": [{ "expr": "cpu_usage_percent", "refId": "A" }]
+    },
+    {
+      "title": "Memory Usage",
+      "type": "gauge",
+      "targets": [{ "expr": "memory_usage_percent", "refId": "A" }]
+    },
+    {
+      "title": "Active Requests",
+      "type": "stat",
+      "targets": [{ "expr": "active_requests", "refId": "A" }]
+    }
+  ]
+}
