@@ -35,5 +35,6 @@ docker compose up --build -d
 - Monitoring stack architecture
 - Production-ready Docker setup
 
+---
 
-* Built to demonstrate hands-on experience with monitoring, observability, containerization, and DevSecOps workflows.
+Built to demonstrate hands-on experience with monitoring, observability, containerization, and DevSecOps workflows.
