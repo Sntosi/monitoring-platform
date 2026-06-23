@@ -13,22 +13,22 @@ A complete **real-world monitoring solution** built as a DevSecOps portfolio pro
 
 ```bash
 docker compose up --build -d
+```
 
-
-Access Points:
+## 🌐 Access Points:
 
 Application: http://localhost:8000/metrics
 Prometheus: http://localhost:9090
 Grafana: http://localhost:3000 (admin / admin123)
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Prometheus
 Grafana
 FastAPI (Python)
 Docker & Docker Compose
 
-📈 What I Learned
+## 📈 What I Learned
 
 Observability best practices
 Custom metrics exposure
@@ -36,4 +36,4 @@ Monitoring stack architecture
 Production-ready Docker setup
 
 
-Part of my DevSecOps Portfolio — Demonstrating end-to-end monitoring capabilities.
+Built to demonstrate hands-on experience with monitoring, observability, containerization, and DevSecOps workflows.
