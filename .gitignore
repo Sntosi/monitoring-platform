@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Docker
+Dockerfile.*
+*.dockerignore
+
+# Data & Volumes (Do NOT commit these)
+prometheus_data/
+grafana_data/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
